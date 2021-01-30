@@ -3,9 +3,15 @@ $display: flex;
 .header {
   justify-content: space-between;
   display: $display;
-  background-color: #3e3e3e;
+  background-color: #104868;
   &_logo {
-    align-items: center;
+    width: 70px;
+    height: 70px;
+    img {
+      width: auto;
+      height: 100%;
+      margin-left: 5px;
+    }
   }
   &_categorias {
     color: white;
