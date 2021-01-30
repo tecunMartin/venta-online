@@ -1,0 +1,34 @@
+$display: flex;
+
+.header {
+  justify-content: space-between;
+  display: $display;
+  background-color: #3e3e3e;
+  &_logo {
+    align-items: center;
+  }
+  &_categorias {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    display: $display;
+    &--item {
+      text-decoration: none;
+      color: white;
+      margin-right: 15px;
+      .user {
+        display: inline-block;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 50%;
+        img {
+          width: auto;
+          height: 100%;
+          margin-left: -20px;
+        }
+      }
+    }
+  }
+}
