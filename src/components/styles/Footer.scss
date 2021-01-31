@@ -1,0 +1,31 @@
+$color: #2980b9;
+
+.datos_cliente {
+  background-color: rgb(173, 167, 167);
+  display: flex;
+  justify-content: space-around;
+  .personal {
+    width: 25%;
+    color: black !important;
+    text-align: center;
+  }
+  span {
+    font-size: 16px;
+    display: block;
+    margin-top: 15px;
+    a {
+      color: black;
+    }
+  }
+  h3 {
+    font-size: 24px;
+  }
+  button {
+    border-radius: 30px;
+    border: 1px solid $color;
+    background-color: white;
+    color: $color;
+    padding: 5px 50px;
+    margin: 20px 0;
+  }
+}

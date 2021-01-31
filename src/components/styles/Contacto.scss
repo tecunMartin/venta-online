@@ -1,0 +1,28 @@
+$color: rgb(255, 81, 0);
+.contactos {
+  text-align: center;
+  margin: 0 100px;
+  height: 100%;
+  .contactos_icon {
+    font-size: 80px;
+    color: $color;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: rgb(121, 121, 121);
+  }
+  button {
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid $color;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: $color;
+  }
+}
