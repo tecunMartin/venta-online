@@ -3,14 +3,17 @@ $display: flex;
 .header {
   justify-content: space-between;
   display: $display;
-  background-color: #104868;
+  background-color: #04206b;
   &_logo {
     width: 70px;
     height: 70px;
+    overflow: hidden;
+    border-radius: 10%;
+    margin-left: 2px;
     img {
       width: auto;
       height: 100%;
-      margin-left: 5px;
+      margin-left: -20px;
     }
   }
   &_categorias {

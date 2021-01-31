@@ -1,0 +1,62 @@
+@mixin links {
+  margin-right: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.form_complet {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #273746;
+  color: white;
+  justify-content: center;
+  width: 32%;
+  height: 60%;
+  margin-left: 35%;
+  form {
+    margin-bottom: 45px;
+  }
+  h1 {
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+  .button_Submit {
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: #2980b9;
+    padding: 10px 155px;
+    border-radius: 15px;
+  }
+  .link {
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  .input_input {
+    margin-bottom: 25px;
+  }
+  .contra {
+    margin-bottom: 30px;
+  }
+  .registro {
+    font-size: 15px;
+    color: #b3b6b7;
+    .link {
+      @include links();
+    }
+  }
+  .usuarios {
+    display: flex;
+    justify-content: space-around;
+    &_forgot a {
+      @include links();
+      color: rgb(243, 70, 70);
+    }
+  }
+  .or {
+    margin: 15px 0px;
+  }
+}
