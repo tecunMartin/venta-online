@@ -1,0 +1,11 @@
+$fi-in: -12px;
+.Home {
+  background-color: #d4d4d4;
+  margin-bottom: $fi-in;
+  margin-top: $fi-in;
+}
+.categorias_vendidas {
+  margin: 0 25px 12px 25px;
+  display: flex;
+  justify-content: space-between;
+}
