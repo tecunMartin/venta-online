@@ -1,0 +1,68 @@
+@mixin reset {
+  padding: 0;
+  margin: 0;
+}
+
+/* Fondo de abajo */
+#Wallpaper {
+  background: url('https://image.freepik.com/free-photo/contact-us-concept-wood-block-symbol-telephone-mail-address-desk_52701-83.jpg')
+    no-repeat center;
+  background-attachment: fixed;
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    h1 {
+      font-size: 70px;
+      padding: 0%;
+    }
+    h1::after {
+      content: 'Con más de 10 años de expericia';
+      animation: texto 15s both infinite;
+    }
+  }
+}
+/* Animaciones para la seccion de abajo */
+@keyframes texto {
+  10% {
+    opacity: 0;
+  }
+  30% {
+    content: 'Dedidacos a las preda de calidad';
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#contactanos {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  h1 {
+    @include reset();
+    font-size: 50px;
+    color: rgb(24, 24, 24);
+    margin-top: 30px;
+  }
+  h3 {
+    @include reset();
+    font-size: 25px;
+    color: rgb(117, 117, 117);
+  }
+}
+
+#s_contac {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}

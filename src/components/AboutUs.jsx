@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './styles/Contacto.scss';
+import './styles/AboutUs.scss';
 import { Link } from 'react-router-dom';
 
 /*
@@ -9,21 +9,21 @@ import { Link } from 'react-router-dom';
  **subtitle
  */
 
-const Contacto = ({ icon, title, subtitle, direccion = '/noDisponible' }) => {
+const AboutUs = ({ icon, title, subtitle, button, direccion = '/noDisponible' }) => {
   return (
     <div>
-      <div className="contactos">
+      <div className="aboutUs">
         <div className="contactos_icon">
           <FontAwesomeIcon icon={icon} />
         </div>
         <h2>{title}</h2>
         <p>{subtitle}</p>
         <Link className="Link" to={direccion}>
-          Ir a la página >
+          {button}
         </Link>
       </div>
     </div>
   );
 };
 
-export default Contacto;
+export default AboutUs;
