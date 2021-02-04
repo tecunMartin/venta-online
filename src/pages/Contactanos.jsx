@@ -7,7 +7,7 @@ const Contactanos = () => {
     <div>
       <section id="Home">
         <div class="container">
-          <h1></h1>
+          <h1> </h1>
         </div>
       </section>
       <section id="contactanos">

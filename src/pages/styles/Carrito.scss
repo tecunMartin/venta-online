@@ -1,0 +1,82 @@
+.carrito {
+  display: flex;
+  margin: 10px 15px;
+  .product {
+    width: 800px;
+  }
+  .product_title {
+    background-color: rgb(231, 231, 231);
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    h1 {
+      color: rgb(39, 39, 39);
+    }
+    &-descuento {
+      background-color: rgb(231, 231, 231);
+      margin-bottom: 15px;
+      padding: 20px 10px;
+      h2 {
+        padding: 0;
+        margin: 0;
+        color: orangered;
+        text-transform: uppercase;
+      }
+      small {
+        font-size: 15px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+$color-le: rgb(231, 231, 231);
+.pago {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 400px;
+  height: 650px;
+  margin: 0 0 0 150px;
+  padding: 0px 20px;
+  &_item {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3,
+    h1 {
+      font-weight: 500;
+    }
+    h1 {
+      color: white;
+    }
+  }
+  .link {
+    color: white;
+    padding: 20px;
+  }
+  .entrega {
+    width: 300px;
+  }
+  .botones {
+    text-align: center;
+    button {
+      padding: 15px 125px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .button_card {
+      margin-top: 50px;
+      color: white;
+      background-color: orangered;
+      border-radius: 30;
+      .icon {
+        font-size: 25px;
+        margin-left: 15px;
+      }
+      .paypal {
+      }
+    }
+  }
+}

@@ -8,11 +8,11 @@ const Nosotros = () => {
     <div>
       <section id="Wallpaper">
         <div class="container">
-          <h1></h1>
+          <h1> </h1>
         </div>
       </section>
       <section id="contactanos">
-        <h1>Hacerca de nosotros</h1>
+        <h1>Acerca de nosotros</h1>
         <h3>Para más info. seleccione una opción</h3>
       </section>
       <div id="s_contac">
@@ -25,13 +25,13 @@ const Nosotros = () => {
         <AboutUs
           icon={faTags}
           title="¿Cúal es nuestra mision?"
-          subtitle="Dar el mejor precio por la mejor calidad, buscamos que tengas lo mejor de las distintas marcas y que siempre tengas el mejor precio con nosotros."
+          subtitle="Ofrecer a nuestros clientes prendas y accesorios de las mejores marcas 100% originales, con los precios más bajos del mercado."
           button="Más información"
         />
         <AboutUs
           icon={faStore}
           title="¿Por qué escogernos?"
-          subtitle="Tenemos la mayor variedad de productos en todas la tiendas en linea, tambie tenemos lo más cotizado por los clietes"
+          subtitle="Encontraras variedad de producto de las mejores marcas y diseñadores para todas las edades u ocasiones"
           button="Nuestros productos"
           direccion="/categorias"
         />

@@ -30,7 +30,10 @@ const Header = () => {
         <Link to="/me">
           <div className="header_categorias--item">
             <div className="user">
-              <img src="https://agenciaseo.eu/wp-content/uploads/2020/04/perfil-de-buyer-persona-750x480.jpg" alt="User" />
+              <img
+                src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/82410679_2622539271316417_9046607422222761984_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=UZJQZD3m80sAX9NGFFZ&_nc_ht=scontent-mia3-1.xx&oh=345c43a43856647ac1b6835cd693e40f&oe=604210B3"
+                alt="User"
+              />
             </div>
           </div>
         </Link>
