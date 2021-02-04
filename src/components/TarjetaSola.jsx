@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/TarjetaSola.scss';
-const TarjetaSola = ({ title, img }) => {
+const TarjetaSola = ({ title, img, direccion = '/categorias' }) => {
   return (
     <div className="tarjeta">
       <div className="tarjeta_title">
@@ -13,7 +14,7 @@ const TarjetaSola = ({ title, img }) => {
         </div>
       </div>
       <div className="link sola">
-        <a href="/categorias">Ver más</a>
+        <Link to={direccion}>Ver más</Link>
       </div>
     </div>
   );

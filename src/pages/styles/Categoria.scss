@@ -1,0 +1,22 @@
+.title {
+  background-color: white;
+  h1 {
+    text-align: center;
+    padding: 15px;
+  }
+}
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.categorias_vendidas {
+  margin: 0 25px 12px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+$fi-in: -12px;
+.categoria {
+  background-color: #d4d4d4;
+  margin-bottom: $fi-in;
+  margin-top: $fi-in;
+}
